@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const dotenv = require("dotenv").config();
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const prefix ="**"
 const client = new Discord.Client();
@@ -8,6 +9,8 @@ client.on("message", function(message) {
     }    
     if (message.content.match(/cool car man/)) {
         message.reply(`COOL CAR MAN WHAT IS THAT A FERRRAI?????`);  
+    } else if (message.content.match(/F1/)) {
+        
     }
     /*      
     if(!message.content.startsWith(prefix)) {
