@@ -1,0 +1,11 @@
+{
+  "name": "test_discord_bot",
+  "version": "1.0",
+  "description": "COOL CAR MAN",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0"
+  }
+}
